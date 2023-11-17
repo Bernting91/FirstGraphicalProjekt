@@ -1,0 +1,41 @@
+﻿<Window x:Class="Uppgift_3___Grafiskt_Program_Inlämning.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift_3___Grafiskt_Program_Inlämning"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="art/loginScreen.jpg"/>
+        </Grid.Background>
+        <Label Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Margin="50 40 0 0" Background="{x:Null}" >
+            Username
+        </Label>
+        <Label Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Margin="50 70 0 0" Background="{x:Null}" >
+            Password
+        </Label>
+        <TextBox x:Name="loginUserNameBox" Width="120" Height="20" Grid.Row="1" Grid.Column="1" Margin="100 -35 0 0" Background="Bisque"></TextBox>
+        <TextBox x:Name="loginPasswordBox"  Width="120" Height="20" Grid.Row="1" Grid.Column="1" Margin="100 22 0 0" Background="Bisque"></TextBox>
+        <Canvas Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="loginButton" Grid.Column="1" Grid.Row="1" Height="20" Width="40" Margin="0 90 0 0" Background="Gold" Click="loginButton_Click">Login</Button>
+        <Button x:Name="registerScreenButton" Grid.Column="1" Grid.Row="1" Height="20" Width="50" Margin="100 90 0 0" Background="Gold" Click="registerScreenButton_Click">Register</Button>
+        <Button x:Name="showAvailableUsersButton" Grid.Column="1" Grid.Row="0" Margin="10 10 10 10" Height="30" Width="120" VerticalAlignment="Top" Background="Beige" Click="showAvailableUsersButton_Click">Show Available users</Button>
+        <ListBox x:Name="availableUsersListBox" Margin="0,0,0,0" Grid.RowSpan="2" Background="Black"  Foreground="White" SelectionChanged="AvailableUsersListBox_SelectionChanged"  Opacity="-1"/>
+        <Button x:Name="removeUserButton" Grid.Row="2" Grid.Column="0" Margin="50 50 50 50" Opacity="-1" Click="removeUserButton_Click">Remove User</Button>
+        <Label x:Name="removeUserLabel" Grid.Row="2" Grid.Column="0" Margin="50 0 100 120" Foreground="White" FontSize="10" Width="150" Height="40" ></Label>
+        <Button x:Name="saveUsersButton" Grid.Row="2" Grid.Column="0" Margin="150 10 10 10" VerticalAlignment="bottom" Opacity="-1" Click="saveUsersButton_Click">Save users</Button>
+        <Button x:Name="loadUsersButton" Grid.Row="2" Grid.Column="0" Margin="10 10 150 10" VerticalAlignment="Bottom" Opacity="-1" Click="loadUsersButton_Click">Load users</Button>
+    </Grid>
+</Window>

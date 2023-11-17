@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Uppgift_3___Grafiskt_Program_Inlämning</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Art\CharacterScreenStandard.jpg" />
+    <None Remove="Art\equipment.jpg" />
+    <None Remove="Art\knightSelection.jpg" />
+    <None Remove="Art\loginScreen.jpg" />
+    <None Remove="Art\rangerSelection.jpg" />
+    <None Remove="Art\registerScreen3.jpg" />
+    <None Remove="Art\townSquareImage.jpg" />
+    <None Remove="Art\wizardSelection.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Art\CharacterScreenStandard.jpg" />
+    <Resource Include="Art\equipment.jpg" />
+    <Resource Include="Art\knightSelection.jpg" />
+    <Resource Include="Art\loginScreen.jpg" />
+    <Resource Include="Art\rangerSelection.jpg" />
+    <Resource Include="Art\registerScreen3.jpg" />
+    <Resource Include="Art\townSquareImage.jpg" />
+    <Resource Include="Art\wizardSelection.jpg" />
+  </ItemGroup>
+
+</Project>

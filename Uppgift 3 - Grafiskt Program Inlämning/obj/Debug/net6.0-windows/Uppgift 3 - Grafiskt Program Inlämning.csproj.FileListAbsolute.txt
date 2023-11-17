@@ -1,0 +1,28 @@
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\CharacterScreen.g.cs
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Destination.g.cs
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\inventory.g.cs
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\RegisterWindow.g.cs
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning_MarkupCompile.cache
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning_MarkupCompile.lref
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\bin\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.exe
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\bin\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.deps.json
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\bin\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.runtimeconfig.json
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\bin\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.dll
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\bin\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.pdb
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\CharacterScreen.baml
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Destination.baml
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\inventory.baml
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\RegisterWindow.baml
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.g.resources
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.AssemblyInfoInputs.cache
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.AssemblyInfo.cs
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.csproj.CoreCompileInputs.cache
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.dll
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\refint\Uppgift 3 - Grafiskt Program Inlämning.dll
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.pdb
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\Uppgift 3 - Grafiskt Program Inlämning.genruntimeconfig.cache
+C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\obj\Debug\net6.0-windows\ref\Uppgift 3 - Grafiskt Program Inlämning.dll
