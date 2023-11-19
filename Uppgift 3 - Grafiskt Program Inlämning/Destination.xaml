@@ -29,7 +29,7 @@
             <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="2, I want to go to the cave" MouseLeftButtonDown="textBlockCave_click"/>
             <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="3, I want to go to the armory" MouseLeftButtonDown="textBlockArmory_click"/>
             <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="4, I'd rather just go home." MouseLeftButtonDown="textBlockGoHome_click"/>
-            <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="5, Im ready to face the dragon!" MouseLeftButtonDown="textBlockFaceDemon_click"/>
+            <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="5, Im ready to face the demon!" MouseLeftButtonDown="textBlockFaceDemon_click"/>
 
         </StackPanel>
         <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 0 10" Height="20" Width="50" Click="goBackCharacterScreenButton_Click">Go Back</Button>
