@@ -22,7 +22,6 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
         Item Sword;
         Item Bow;
         Item Wand;
-
         private Hero player;
         public Destination(Hero Player, Item Sword, Item Bow, Item Wand)
         {
@@ -72,7 +71,6 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
             {
                 notReadyLabel.Visibility = Visibility.Visible;
             }
-
         }
 
         private void goBackCharacterScreenButton_Click(object sender, RoutedEventArgs e)

@@ -29,7 +29,6 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
             this.player = player;
             this.location = location;
         }
-
         private void yesButton_Click(object sender, RoutedEventArgs e)
         {
             if (player.GetItems().Contains(location.Loot))
@@ -48,12 +47,10 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
         {
             runLabel.Visibility = Visibility.Visible;
         }
-
         private void goBackButton1_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-
         private void showInventory_click(object sender, RoutedEventArgs e)
         {
              InventoryForm inventoryform = new InventoryForm(player);

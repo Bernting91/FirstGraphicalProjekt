@@ -79,11 +79,9 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
                 {
                     removeUserLabel.Content = "No user selected";
                 }
-
-            
-            
         }
-        string path = "SavedUsers.csv";
+            string path = "SavedUsers.csv";
+
         private void saveUsersButton_Click(object sender, RoutedEventArgs e)
         {
             using (StreamWriter writer = new StreamWriter(path))
@@ -111,8 +109,6 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
                   users.Add(user);
                   availableUsersListBox.Items.Add(user);
                   line = reader.ReadLine();
-                    
-
                 }
             }
         }

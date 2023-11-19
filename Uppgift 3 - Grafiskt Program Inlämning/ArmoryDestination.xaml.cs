@@ -27,7 +27,6 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
             this.player = player;
             this.location = location;
         }
-
         private void buyButton_Click(object sender, RoutedEventArgs e)
         {
             if (player.GetItems().Contains(location.Loot))
@@ -42,7 +41,6 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
                 player.AddItem(location.Loot);
             }
         }
-
         private void stealButton_Click(object sender, RoutedEventArgs e)
         {
             if (player.GetItems().Contains(location.Loot))
@@ -57,12 +55,10 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
                 player.AddItem(location.Loot);
             }
         }
-
         private void goBackButton1_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-
         private void showInventory_click(object sender, RoutedEventArgs e)
         {
             InventoryForm inventoryform = new InventoryForm(player);
