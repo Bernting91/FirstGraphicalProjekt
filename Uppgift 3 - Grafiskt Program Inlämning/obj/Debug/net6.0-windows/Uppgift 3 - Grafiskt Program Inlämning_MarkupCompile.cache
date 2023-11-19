@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\bernt\OneDrive\Dokument\RepositorySKOLA\Uppgift 3 - Grafiskt Program Inlämning\Uppgift 3 - Grafiskt Program Inlämning\App.xaml
-5-432027827
+9-1086425015
 
-111362358921
+15-1470082392
 194183970531
-CharacterScreen.xaml;Destination.xaml;inventory.xaml;MainWindow.xaml;RegisterWindow.xaml;
+ArmoryDestination.xaml;CaveLocation.xaml;CharacterScreen.xaml;Destination.xaml;EndBoss.xaml;InventoryForm.xaml;LakeDestination.xaml;MainWindow.xaml;RegisterWindow.xaml;
 
 False
 

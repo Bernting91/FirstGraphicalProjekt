@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uppgift_3___Grafiskt_Program_Inlämning
 {
-     class Hero
+    public class Hero
     {
         public string Type { get; set; }
        public List<Item> Items { get; set; } = new List<Item>();

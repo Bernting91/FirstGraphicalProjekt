@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,11 +24,9 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
         Item Sword = new Item("Sword");
         Item Bow = new Item("Bow");
         Item Wand = new Item("Wand");
-        
         public CharacterScreen()
         {
             InitializeComponent();
-            
         }
 
         private void knightSelectionCheckBox_Checked(object sender, RoutedEventArgs e)
@@ -72,7 +71,7 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
         private void chooseKnightButton_click(object sender, RoutedEventArgs e)
         {
             Hero Player = new Hero("Knight", Sword);
-            Destination destination = new Destination();
+            Destination destination = new Destination(Player, Sword, Bow, Wand);
             destination.Owner = this;
             destination.Show();
             this.Visibility = Visibility.Collapsed;
@@ -81,7 +80,7 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
         private void chooseRangerButton_Click(object sender, RoutedEventArgs e)
         {
             Hero Player = new Hero("Ranger", Bow);
-            Destination destination = new Destination();
+            Destination destination = new Destination(Player, Sword, Bow, Wand);
             destination.Owner = this;
             destination.Show();
             this.Visibility = Visibility.Collapsed;
@@ -90,7 +89,7 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
         private void chooseWizardButton_Click(object sender, RoutedEventArgs e)
         {
             Hero Player = new Hero("Wizard", Wand);
-            Destination destination = new Destination();
+            Destination destination = new Destination(Player, Sword, Bow, Wand);
             destination.Owner = this;
             destination.Show();
             this.Visibility = Visibility.Collapsed;

@@ -21,7 +21,7 @@
             <ImageBrush ImageSource="art/townSquareImage.jpg"/>
         </Grid.Background>
         <WrapPanel Grid.Column="1" Grid.RowSpan="3" MaxWidth="220" Orientation="Vertical">
-            <TextBlock x:Name="chooseDestinationText"  TextWrapping="Wrap" Background="White" Opacity="0.4" Foreground="Black" FontSize="15" FontStyle="Oblique" FontWeight="Bold" >Hello Adventurer! Where do you want to go and search for the items you need? You need all three weapons to defeat the dragon that has the princess captive. </TextBlock>
+            <TextBlock x:Name="chooseDestinationText"  TextWrapping="Wrap" Background="White" Opacity="0.4" Foreground="Black" FontSize="15" FontStyle="Oblique" FontWeight="Bold" >Hello Adventurer! Where do you want to go and search for the items you need? You need all three weapons to defeat the demon that has the princess captive.</TextBlock>
             <TextBlock  TextWrapping="Wrap" Background="White" Opacity="0.4" Foreground="Black" FontSize="15" FontStyle="Oblique" FontWeight="Bold" ></TextBlock>
         </WrapPanel>
         <StackPanel Background="Transparent" Orientation="Vertical" Grid.Column="2" Grid.RowSpan="3">
@@ -29,10 +29,11 @@
             <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="2, I want to go to the cave" MouseLeftButtonDown="textBlockCave_click"/>
             <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="3, I want to go to the armory" MouseLeftButtonDown="textBlockArmory_click"/>
             <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="4, I'd rather just go home." MouseLeftButtonDown="textBlockGoHome_click"/>
-            <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="5, Im ready to face the dragon!" MouseLeftButtonDown="textBlockFaceDragon_click"/>
+            <TextBlock Foreground="white" TextWrapping="Wrap" FontSize="20" Margin="10 10 10 10" Text="5, Im ready to face the dragon!" MouseLeftButtonDown="textBlockFaceDemon_click"/>
 
         </StackPanel>
         <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 0 10" Height="20" Width="50" Click="goBackCharacterScreenButton_Click">Go Back</Button>
         <Button Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 10" Height="20" Width="100" Click="showInventory_click">Show Inventory</Button>
+        <Label x:Name="notReadyLabel" Grid.Column="1" Grid.Row="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="15" Foreground="White" Visibility="Collapsed">You're not ready. You need all weapons</Label>
     </Grid>
 </Window>

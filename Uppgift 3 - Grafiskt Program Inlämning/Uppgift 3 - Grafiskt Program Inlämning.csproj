@@ -9,10 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Art\armoryImage.jpeg" />
     <None Remove="Art\CharacterScreenStandard.jpg" />
+    <None Remove="Art\crabPeople.jpg" />
+    <None Remove="Art\crabPeopleImage.jpg" />
     <None Remove="Art\equipment.jpg" />
     <None Remove="Art\knightSelection.jpg" />
+    <None Remove="Art\lakeImage.jpg" />
     <None Remove="Art\loginScreen.jpg" />
+    <None Remove="Art\manbearpigImage.jpg" />
     <None Remove="Art\rangerSelection.jpg" />
     <None Remove="Art\registerScreen3.jpg" />
     <None Remove="Art\townSquareImage.jpg" />
@@ -20,14 +25,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Art\armoryImage.jpeg" />
     <Resource Include="Art\CharacterScreenStandard.jpg" />
+    <Resource Include="Art\crabPeople.jpg" />
     <Resource Include="Art\equipment.jpg" />
     <Resource Include="Art\knightSelection.jpg" />
+    <Resource Include="Art\lakeImage.jpg" />
     <Resource Include="Art\loginScreen.jpg" />
+    <Resource Include="Art\manbearpigImage.jpg" />
     <Resource Include="Art\rangerSelection.jpg" />
     <Resource Include="Art\registerScreen3.jpg" />
     <Resource Include="Art\townSquareImage.jpg" />
     <Resource Include="Art\wizardSelection.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Art\crabPeopleImage.jpg" />
   </ItemGroup>
 
 </Project>

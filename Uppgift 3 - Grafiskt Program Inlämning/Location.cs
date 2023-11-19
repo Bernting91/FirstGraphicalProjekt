@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uppgift_3___Grafiskt_Program_Inlämning
 {
-    class Location
+    public class Location
     {
         public string Hideout { get; set; }
         public Item Loot { get; set; }

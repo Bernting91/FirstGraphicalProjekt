@@ -19,36 +19,59 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
     /// </summary>
     public partial class Destination : Window
     {
+        Item Sword;
+        Item Bow;
+        Item Wand;
+
         private Hero player;
-        public Destination()
+        public Destination(Hero Player, Item Sword, Item Bow, Item Wand)
         {
             InitializeComponent();
-            this.player = player;
-            
+            this.player = Player;
+            this.Sword = Sword;
+            this.Bow = Bow;
+            this.Wand = Wand;
         }
-        
+
         private void textBlockLake_click(object sender, MouseButtonEventArgs e)
         {
-
+            Location Lake = new Location("Lake", Wand);
+            Hero Player = this.player;
+            LakeDestination lakeDestination = new LakeDestination(Player, Lake);
+            lakeDestination.Show();
         }
 
         private void textBlockCave_click(object sender, MouseButtonEventArgs e)
         {
-
+            Location Cave = new Location("Cave", Bow);
+            Hero Player = this.player;
+            CaveLocation caveLocation = new CaveLocation(Player, Cave);
+            caveLocation.Show();
         }
 
         private void textBlockArmory_click(object sender, MouseButtonEventArgs e)
         {
-
+            Location Armory = new Location("Armory", Sword);
+            Hero Player = this.player;
+            ArmoryDestination armorydestination = new ArmoryDestination(Player, Armory);
+            armorydestination.Show();
         }
 
         private void textBlockGoHome_click(object sender, MouseButtonEventArgs e)
         {
-
+            Close();
         }
-
-        private void textBlockFaceDragon_click(object sender, MouseButtonEventArgs e)
+        private void textBlockFaceDemon_click(object sender, MouseButtonEventArgs e)
         {
+            if (player.GetItems().Contains(Sword) && player.GetItems().Contains(Bow) && player.GetItems().Contains(Wand))
+            {
+                EndBoss endboss = new EndBoss();
+                endboss.Show();
+            }
+            else
+            {
+                notReadyLabel.Visibility = Visibility.Visible;
+            }
 
         }
 
@@ -78,7 +101,7 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
                     HandleKeyPress(textBlockGoHome_click);
                     break;
                 case Key.D5:
-                    HandleKeyPress(textBlockFaceDragon_click);
+                    HandleKeyPress(textBlockFaceDemon_click);
                     break;
             }
         }
@@ -90,8 +113,10 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
 
         private void showInventory_click(object sender, RoutedEventArgs e)
         {
-        InventoryForm inventoryform = new InventoryForm(player);
+            InventoryForm inventoryform = new InventoryForm(player);
             inventoryform.ShowDialog();
         }
+
+
     }
 }

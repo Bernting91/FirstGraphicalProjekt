@@ -7,13 +7,25 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ArmoryDestination.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CaveLocation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CharacterScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Destination.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EndBoss.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="InventoryForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LakeDestination.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="RegisterWindow.xaml.cs">
@@ -21,13 +33,25 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ArmoryDestination.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CaveLocation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CharacterScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Destination.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="EndBoss.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="InventoryForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LakeDestination.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

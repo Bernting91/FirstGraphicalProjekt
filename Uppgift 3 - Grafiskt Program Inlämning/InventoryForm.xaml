@@ -10,8 +10,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="art/equipment.jpg"/>
         </Grid.Background>
-        <ListBox x:Name="itemListBox" Background="Transparent" Margin="10 10 10 10" FontSize="15" Foreground="White">
-        
+        <ListBox x:Name="itemListBox" Background="Transparent" Margin="10 10 10 10" FontSize="15" Foreground="White" Height="244">
+
         </ListBox>
+
     </Grid>
 </Window>

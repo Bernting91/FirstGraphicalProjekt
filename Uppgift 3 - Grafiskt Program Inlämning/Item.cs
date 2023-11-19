@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Uppgift_3___Grafiskt_Program_Inlämning
 {
-    class Item
+    public class Item
     {
         public string Type { get; set; }
         public Item(String type)
