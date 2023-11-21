@@ -189,7 +189,7 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Uppgift 3 - Grafiskt Program Inlämning;V1.0.0.0;component/characterscreen.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Uppgift 3 - Grafiskt Program Inlämning;component/characterscreen.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CharacterScreen.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

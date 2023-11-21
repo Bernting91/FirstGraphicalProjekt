@@ -105,7 +105,6 @@ namespace Uppgift_3___Grafiskt_Program_Inlämning
         }
         private void HandleKeyPress(MouseButtonEventHandler MouseEvent)
         {
-            // Call the specified click event logic
             MouseEvent?.Invoke(this, new MouseButtonEventArgs(Mouse.PrimaryDevice, 0, MouseButton.Left));
         }
 
